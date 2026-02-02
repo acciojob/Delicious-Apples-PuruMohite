@@ -1,1 +1,68 @@
 /* your code here */
+.product{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.product__photo{
+	width: 50%;
+}
+.product__info{
+	width: 50%;
+}
+.photo-main{
+	background-color: lightgreen;
+}
+
+.controls{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	color: white;
+}
+.controls li{
+	color: white;
+}
+
+.photo-album ul{
+	display: flex;
+	list-style: none;
+	gap: 15px;
+}
+
+.photo-album ul li{
+	border: 0.1px solid gray;
+}
+
+.product__info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+}
+.product__info .price{
+	color: tomato;
+}
+.product__info .price span{
+	font-size: 72px;
+}
+
+.variant ul{
+	display: flex;
+	list-style: none;
+	gap: 15px;
+}
+
+.variant li{
+		border: 0.1px solid gray;
+}
+
+button{
+	background-color: tomato;
+	color: white;
+	padding: 8px 16px;
+	border: none;
+	border-radius: 2px;
+}
+
